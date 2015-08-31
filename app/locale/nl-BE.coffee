@@ -15,14 +15,14 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
 
   nav:
     play: "Levels" # The top nav bar entry where players choose which levels to play
-#    community: "Community"
+    community: "Community"
     editor: "Editor"
     blog: "Blog"
     forum: "Forum"
-#    account: "Account"
+    account: "Account"
     profile: "Profiel"
-#    stats: "Stats"
-#    code: "Code"
+    stats: "Statistieken"
+    code: "Code"
     admin: "Administrator" # Only shows up when you are an admin
     home: "Home"
     contribute: "Bijdragen"
@@ -52,7 +52,7 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
     spectate: "Toeschouwen" # Ladder page
     players: "Spelers" # Hover over a level on /play
     hours_played: "Gespeelde uren" # Hover over a level on /play
-#    items: "Items" # Tooltip on item shop button from /play
+    items: "Items" # Tooltip on item shop button from /play
     unlock: "Ontsluit" # For purchasing items and heroes
     confirm: "Bevestig"
     owned: "In bezit" # For items you own
@@ -64,31 +64,31 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
     achievements: "Prestaties" # Tooltip on achievement list button from /play
     account: "Account" # Tooltip on account button from /play
     settings: "Instellingen" # Tooltip on settings button from /play
-#    poll: "Poll" # Tooltip on poll button from /play
+    poll: "Poll" # Tooltip on poll button from /play.    (translator: 'Poll' is fairly common in dutch. 'Vraag' could be used as an alternative)
     next: "Volgende" # Go from choose hero to choose inventory before playing a level
     change_hero: "Held wisselen" # Go back from choose inventory to choose hero
-#    choose_inventory: "Equip Items"
+    choose_inventory: "Gebruik Items" #No good translations exists as far as I know. Translated "Equip Items" as "Use Items"
     buy_gems: "Koop juwelen"
-#    subscription_required: "Subscription Required"
+    subscription_required: "Abonnement Vereist"
     anonymous: "Anonieme speler"
     level_difficulty: "Moeilijkheidsgraad: "
     campaign_beginner: "Beginnercampagne"
-#    awaiting_levels_adventurer_prefix: "We release new levels every week."
-#    awaiting_levels_adventurer: "Sign up as an Adventurer"
-#    awaiting_levels_adventurer_suffix: "to be the first to play new levels."
-#    adjust_volume: "Adjust volume"
+    awaiting_levels_adventurer_prefix: "We geven iedere week nieuwe levels vrij."
+    awaiting_levels_adventurer: "Registreer als Avonturier" #not sure if "adventurer" is consistently translated as "Avonturier" throughout the game.
+    awaiting_levels_adventurer_suffix: "om als eerste de nieuwe levels te spelen."
+    adjust_volume: "Volume aanpassen"
     campaign_multiplayer: "Multiplayer Arena's"
     campaign_multiplayer_description: "... waarin je direct tegen andere spelers speelt."
-#    campaign_old_multiplayer: "(Deprecated) Old Multiplayer Arenas"
+    campaign_old_multiplayer: "(Deprecated) Oude Multiplayer Arenas"
 #    campaign_old_multiplayer_description: "Relics of a more civilized age. No simulations are run for these older, hero-less multiplayer arenas."
 
 #  share_progress_modal:
 #    blurb: "You’re making great progress! Tell your parent how much you've learned with CodeCombat."
-#    email_invalid: "Email address invalid."
+    email_invalid: "Ongeldig e-mailadres."
 #    form_blurb: "Enter your parent's email below and we’ll show them!"
-#    form_label: "Email Address"
-#    placeholder: "email address"
-#    title: "Excellent Work, Apprentice"
+    form_label: "E-mailadres"
+    placeholder: "e-mailaddress"
+    title: "Uitstekend Werk, Leerling" #Not sure if 'Apprentice' is consistently translated as 'Leerling' throughout the game.
 
   login:
     sign_up: "Account maken"
@@ -96,7 +96,7 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
     logging_in: "Bezig met inloggen"
     log_out: "Uitloggen"
     forgot_password: "Paswoord vergeten?"
-#    authenticate_gplus: "Authenticate G+"
+    authenticate_gplus: "G+ Authenticeren"
     load_profile: "G+ Profiel laden"
     finishing: "Voltooien"
     sign_in_with_facebook: "Inloggen met Facebook"
@@ -115,14 +115,14 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
   recover:
     recover_account_title: "Herstel Account"
     send_password: "Verzend nieuw wachtwoord"
-#    recovery_sent: "Recovery email sent."
+    recovery_sent: "Herstel-e-mail verzonden."
 
   items:
     primary: "Eerste"
     secondary: "Tweede"
     armor: "Pantser"
     accessories: "Bijhorigheden"
-#    misc: "Diversen" #of "Varia" ?
+#    misc: "Diversen"      #or "Varia" ?
     books: "Boeken"
 
   common:
@@ -145,7 +145,7 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
     help: "Help"
     watch: "Kijk"
     unwatch: "Niet kijken"
-#    submit_patch: "Submit Patch"
+    submit_patch: "Patch indienen"
     submit_changes: "Wijzigingen indienen"
     save_changes: "Wijzigingen opslaan"
 
@@ -160,16 +160,16 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
     rejected: "Geweigerd"
 #    withdrawn: "Withdrawn"
 #    submitter: "Submitter"
-#    submitted: "Submitted"
+    submitted: "Ingediend"
     commit_msg: "Commit Bericht"
 #    review: "Review"
     version_history: "Versie geschiedenis"
     version_history_for: "Versie geschiedenis voor: "
 #    select_changes: "Select two changes below to see the difference."
-#    undo_prefix: "Undo"
-#    undo_shortcut: "(Ctrl+Z)"
-#    redo_prefix: "Redo"
-#    redo_shortcut: "(Ctrl+Shift+Z)"
+    undo_prefix: "Ongedaan maken"
+    undo_shortcut: "(Ctrl+Z)"
+    redo_prefix: "Opnieuw uitvoeren"
+    redo_shortcut: "(Ctrl+Shift+Z)"
     play_preview: "Voorbeeld van het huidige level spelen"
     result: "Resultaat"
     results: "Resultaten"
@@ -218,7 +218,7 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
     home: "Home" # Not used any more, will be removed soon.
     level: "Level" # Like "Level: Dungeons of Kithgard"
     skip: "Sla over"
-#    game_menu: "Game Menu"
+    game_menu: "Spelmenu"
     guide: "Handleiding"
     restart: "Herstarten"
     goals: "Doelen"
@@ -252,9 +252,9 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
     victory_hour_of_code_done_yes: "Ja, ik ben klaar met mijn Hour of Code!"
     victory_experience_gained: "XP verdiend"
     victory_gems_gained: "Juwelen verdiend"
-#    victory_new_item: "New Item"
+    victory_new_item: "Nieuw Item"
 #    victory_viking_code_school: "Holy smokes, that was a hard level you just beat! If you aren't already a software developer, you should be. You just got fast-tracked for acceptance with Viking Code School, where you can take your skills to the next level and become a professional web developer in 14 weeks."
-#    victory_become_a_viking: "Become a Viking"
+    victory_become_a_viking: "Word een Viking"
     guide_title: "Handleiding"
     tome_minion_spells: "Jouw Minions' Spreuken" # Only in old-style levels.
     tome_read_only_spells: "Read-Only Spreuken" # Only in old-style levels.
@@ -269,24 +269,24 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
     tome_select_a_thang: "Selecteer Iemand voor "
     tome_available_spells: "Beschikbare spreuken"
     tome_your_skills: "Jouw vaardigheden"
-#    tome_help: "Help"
+    tome_help: "Help"
     tome_current_method: "Huidige methode"
     hud_continue_short: "Ga verder"
     code_saved: "Code opgeslagen"
     skip_tutorial: "Overslaan (esc)"
-#    keyboard_shortcuts: "Key Shortcuts"
+    keyboard_shortcuts: "Sneltoetsen"
     loading_ready: "Klaar!"
-#    loading_start: "Start Level"
-#    problem_alert_title: "Fix Your Code"
-#    problem_alert_help: "Help"
+    loading_start: "Start Level"
+    problem_alert_title: "Verbeter Je Code"
+    problem_alert_help: "Help"
     time_current: "Nu:"
     time_total: "Maximum:"
     time_goto: "Ga naar:"
-#    non_user_code_problem_title: "Unable to Load Level"
-#    infinite_loop_title: "Infinite Loop Detected"
+    non_user_code_problem_title: "Level kon niet geladen worden"
+    infinite_loop_title: "Oneindige Lus Gedetecteerd"
 #    infinite_loop_description: "The initial code to build the world never finished running. It's probably either really slow or has an infinite loop. Or there might be a bug. You can either try running this code again or reset the code to the default state. If that doesn't fix it, please let us know."
 #    check_dev_console: "You can also open the developer console to see what might be going wrong."
-#    check_dev_console_link: "(instructions)"
+    check_dev_console_link: "(instructies)"
     infinite_loop_try_again: "Probeer opnieuw"
     infinite_loop_reset_level: "Level resetten"
     infinite_loop_comment_out: "Mijn code weg commentariëren"
@@ -305,7 +305,7 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
     tip_morale_improves: "Het spel zal blijven laden tot de moreel verbeterd."
     tip_all_species: "Wij geloven in gelijke kansen voor alle wezens om te leren programmeren."
 #    tip_reticulating: "Reticulating spines."
-    tip_harry: "Je bent een tovenaar, "
+    tip_harry: "Je bent een tovenaar, " #Shouldn't this be the translation of "You're a wizard, Harry"? Harry seems to be missing
     tip_great_responsibility: "Met een groots talent voor programmeren komt een grootse debug verantwoordelijkheid."
     tip_munchkin: "Als je je groentjes niet opeet zal een munchkin je ontvoeren terwijl je slaapt."
     tip_binary: "Er zijn 10 soorten mensen in de wereld: Mensen die binair kunnen tellen en mensen die dat niet kunnen."
@@ -318,20 +318,20 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
     tip_first_language: "Het ergste dat je kan leren is je eerste programmeertaal. - Alan Kay"
     tip_hardware_problem: "Q: Hoeveel programmeurs zijn nodig om een lamp te vervangen?  A: Geen, het is een hardware probleem."
     tip_hofstadters_law: "Wet van Hofstadter: Het duurt altijd langer dan je verwacht, zelfs als je rekening houdt met de Wet van Hofstadter."
-#    tip_premature_optimization: "Premature optimization is the root of all evil. - Donald Knuth"
+    tip_premature_optimization: "Vroegtijdige optimisatie is de wortel van alle kwaad. - Donald Knuth"
     tip_brute_force: "Als je twijfelt, gebruik brute kracht. - Ken Thompson"
     tip_extrapolation: "Er zijn maar 2 soorten van mensen: those that can extrapolate from incomplete data..."
 #    tip_superpower: "Coding is the closest thing we have to a superpower."
 #    tip_control_destiny: "In real open source, you have the right to control your own destiny. - Linus Torvalds"
 #    tip_no_code: "No code is faster than no code."
 #    tip_code_never_lies: "Code never lies, comments sometimes do. — Ron Jeffries"
-#    tip_reusable_software: "Before software can be reusable it first has to be usable."
-#    tip_optimization_operator: "Every language has an optimization operator. In most languages that operator is ‘//’"
+    tip_reusable_software: "Voor software herbruikbaar kan zijn, moet ze eerste bruikbaar zijn."
+    tip_optimization_operator: "Iedere programmeertaal heeft een optimisatie-operator. In de meeste talen is die operator ‘//’"
 #    tip_lines_of_code: "Measuring programming progress by lines of code is like measuring aircraft building progress by weight. — Bill Gates"
-#    tip_source_code: "I want to change the world but they would not give me the source code."
-#    tip_javascript_java: "Java is to JavaScript what Car is to Carpet. - Chris Heilmann"
+    tip_source_code: "Ik wil de wereld veranderen, maar ze willen me de broncode niet geven."
+#    tip_javascript_java: "Java is to JavaScript what Car is to Carpet. - Chris Heilmann" # Untranslatable: joke lost in translation (Car: auto - Carpet: tapijt)
 #    tip_move_forward: "Whatever you do, keep moving forward. - Martin Luther King Jr."
-#    tip_google: "Have a problem you can't solve? Google it!"
+    tip_google: "Heb je een probleem dat je niet kan oplossen? Google het!"
 #    tip_adding_evil: "Adding a pinch of evil."
 #    tip_hate_computers: "That's the thing about people who think they hate computers. What they really hate is lousy programmers. - Larry Niven"
 #    tip_open_source_contribute: "You can help CodeCombat improve!"
@@ -346,9 +346,9 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
     options_tab: "Opties"
     guide_tab: "Gids"
 #    guide_video_tutorial: "Video Tutorial"
-#    guide_tips: "Tips"
+    guide_tips: "Tips"
     multiplayer_tab: "Multiplayer"
-#    auth_tab: "Sign Up"
+    auth_tab: "Registreren"
     inventory_caption: "Rust je held uit"
     choose_hero_caption: "Kies held, taal"
     save_load_caption: "... en bekijk geschiedenis"
@@ -358,9 +358,9 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
     auth_caption: "Bewaar je vooruitgang."
 
   leaderboard:
-#    leaderboard: "Leaderboard"
-#    view_other_solutions: "View Leaderboards"
-#    scores: "Scores"
+    leaderboard: "Leidersbord"
+    view_other_solutions: "Leidersborden bekijken"
+    scores: "Scores"
 #    top_players: "Top Players by"
     day: "Vandaag"
     week: "Deze week"
@@ -406,8 +406,8 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
 #    feature5: "Video tutorials"
 #    feature6: "Premium email support"
 #    feature7: "Private <strong>Clans</strong>"
-#    free: "Free"
-#    month: "month"
+    free: "Gratis"
+    month: "maand"
 #    subscribe_title: "Subscribe"
 #    unsubscribe: "Unsubscribe"
 #    confirm_unsubscribe: "Confirm Unsubscribe"
