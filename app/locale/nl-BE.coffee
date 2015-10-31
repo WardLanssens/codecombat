@@ -15,7 +15,7 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
 
   nav:
     play: "Levels" # The top nav bar entry where players choose which levels to play
-#    community: "Community"
+    community: "Community" # Is in the dutch dictionary. (van Dale)
     editor: "Editor"
     blog: "Blog"
     forum: "Forum"
@@ -64,7 +64,7 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
     achievements: "Prestaties" # Tooltip on achievement list button from /play
     account: "Account" # Tooltip on account button from /play
     settings: "Instellingen" # Tooltip on settings button from /play
-#    poll: "Poll" # Tooltip on poll button from /play
+    poll: "Poll" # Tooltip on poll button from /play
     next: "Volgende" # Go from choose hero to choose inventory before playing a level
     change_hero: "Held wisselen" # Go back from choose inventory to choose hero
     choose_inventory: "Items dragen"
@@ -79,16 +79,16 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
     adjust_volume: "Volume aanpassen"
     campaign_multiplayer: "Multiplayer Arena's"
     campaign_multiplayer_description: "... waarin je direct tegen andere spelers speelt."
-#    campaign_old_multiplayer: "(Deprecated) Old Multiplayer Arenas"
-#    campaign_old_multiplayer_description: "Relics of a more civilized age. No simulations are run for these older, hero-less multiplayer arenas."
+    campaign_old_multiplayer: "(Verouderd) Oude Multiplayer Arenas"
+    campaign_old_multiplayer_description: "Relieken uit een beschaafder tijdperk. Er worden geen simulaties gedaan voor deze oudere multiplayer arenas zonder helden."
 
 #  share_progress_modal:
-#    blurb: "You’re making great progress! Tell your parent how much you've learned with CodeCombat."
+    blurb: "Je maakt uitstekende voortgang! Vertel je ouders hoeveel je al geleerde hebt met CodeCombat."
     email_invalid: "Ongeldig e-mailadres."
-#    form_blurb: "Enter your parent's email below and we’ll show them!"
-    form_label: "E-mail-adress"
-    placeholder: "e-mail adress"
-#    title: "Excellent Work, Apprentice"
+    form_blurb: "Vul het e-mailadres van je ouders in en we laten het hen zien!"
+    form_label: "E-mailadress"
+    placeholder: "e-mailadress"
+    title: "Uitstekend werk, Leerling"
 
   login:
     sign_up: "Account maken"
@@ -96,8 +96,8 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
     logging_in: "Bezig met inloggen"
     log_out: "Uitloggen"
     forgot_password: "Paswoord vergeten?"
-#    authenticate_gplus: "Authenticate G+"
-#    load_profile: "Load G+ Profile"
+    authenticate_gplus: "G+ authenticeren"
+    load_profile: "G+ Profiel laden"
     finishing: "Voltooien"
     sign_in_with_facebook: "Inloggen met Facebook"
     sign_in_with_gplus: "Inloggen met G+"
@@ -115,14 +115,14 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
   recover:
     recover_account_title: "Herstel Account"
     send_password: "Verzend nieuw wachtwoord"
-#    recovery_sent: "Recovery email sent."
+    recovery_sent: "E-mail voor wachtwoordherstel verzonden."
 
   items:
     primary: "Eerste"
     secondary: "Tweede"
     armor: "Pantser"
     accessories: "Bijhorigheden"
-#    misc: "Misc"
+    misc: "Diversen"
     books: "Boeken"
 
   common:
@@ -156,16 +156,16 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
     body: "Inhoud"
     version: "Versie"
 #    pending: "Pending"
-#    accepted: "Accepted"
-#    rejected: "Rejected"
-#    withdrawn: "Withdrawn"
+    accepted: "Geaccepteerd"
+    rejected: "Geweigerd"
+    withdrawn: "Ingetrokken"
 #    submitter: "Submitter"
-#    submitted: "Submitted"
+    submitted: "Ingediend"
     commit_msg: "Commit Bericht"
-#    review: "Review"
+    review: "Review"
     version_history: "Versie geschiedenis"
     version_history_for: "Versie geschiedenis voor: "
-#    select_changes: "Select two changes below to see the difference."
+    select_changes: "Selecteer twee wijzigingen hieronder om het verschil te zien."
     undo_prefix: "Ongedaan maken"
     undo_shortcut: "(Ctrl+Z)"
     redo_prefix: "Opnieuw gedaan maken"
@@ -345,7 +345,7 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
     save_load_tab: "Bewaar/Laad"
     options_tab: "Opties"
     guide_tab: "Gids"
-#    guide_video_tutorial: "Video Tutorial"
+    guide_video_tutorial: "Video Tutorial"
     guide_tips: "Tips"
     multiplayer_tab: "Multiplayer"
     auth_tab: "Registreren"
@@ -360,7 +360,7 @@ module.exports = nativeDescription: "Nederlands (België)", englishDescription: 
   leaderboard:
 #    leaderboard: "Leaderboard"
 #    view_other_solutions: "View Leaderboards"
-#    scores: "Scores"
+    scores: "Scores"
 #    top_players: "Top Players by"
     day: "Vandaag"
     week: "Deze Week"
